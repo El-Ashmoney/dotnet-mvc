@@ -1,0 +1,155 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source because NuGet packages can be updated
+# and the old versions can disappear, breaking your build.
+# As of NuGet 3.5.x, content files and build scripts are unpacked into the "obj" folder
+**/[Pp]ackages/*
+**/packages/*
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets.
+# This line needs to be after the ignore of the "packages/" folder to un-ignore the build folder.
+!**/packages/build/
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Resharper is a .NET coding add-in
+_ReSharper.*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create stuff in the project folder
+#*.suo
+#*.user
+#*.userosscache
+#*.sln.docstates
+
+# Visual Studio 2019
+.vscode/
+
+# MSTest test Results
+[TestR]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Roslyn cache directories
+*.ide/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# TeamCity
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover
+.axoCover/*
+!.axoCover/settings.json
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+# Note: Comment the next line if you want to checkin your Azure Web App publish settings,
+# but sensitive information contained in these scripts will be unencrypted
+*.pubxml
+*.publishproj
+
+# NuGet Packages Directory
+## TODO: If you have NuGet package restore enabled, uncomment the next line
+#packages/
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# This line needs to be after the ignore of the "packages/" folder to un-ignore the build folder
+!**/packages/build/
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+
+# Others
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
