@@ -25,10 +25,10 @@ namespace MVCApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("CreatedAt")
+                    b.Property<DateTime>("Created_At")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("DisplayOrder")
+                    b.Property<int>("Display_Order")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
