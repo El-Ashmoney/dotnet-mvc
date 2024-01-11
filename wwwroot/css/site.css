@@ -20,3 +20,5 @@ html {
 body {
   margin-bottom: 60px;
 }
+.create-category button {width: 50%;}
+.create-category a{width: 49%}

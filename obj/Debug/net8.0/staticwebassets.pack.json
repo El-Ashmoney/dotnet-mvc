@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MVCApp.bundle.scp.css"
     },
     {
+      "Id": "C:\\xampp\\htdocs\\asp\\dotnet-core\\MVCApplications\\MVCApp\\wwwroot\\css\\bootswatchtheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswatchtheme.css"
+    },
+    {
       "Id": "C:\\xampp\\htdocs\\asp\\dotnet-core\\MVCApplications\\MVCApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
